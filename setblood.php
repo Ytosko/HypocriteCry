@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Set blood group</title>
+
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <style>
+    select{
+      width: 100%;
+       height: 49px;
+       background-color: transparent;
+       border: 1px solid #fff;
+       padding: 0px 15px;
+       color: #fff;
+       outline: none;
+       font-size: 14px;
+       letter-spacing: 0.5px;
+       margin-bottom: 30px;
+    }
+    select option{
+      background-color: #EAF2F8;
+      color: #2C3E50;
+      margin-bottom: 10pt;
+      font-size: 14pt;
+
+    }
+    .butogo{
+    top: 0;
+    right: 0;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 20px;
+    border: none;
+    margin-left: 14px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    }
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Hypocrate <em>Cry</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="functional-buttons">
+            <ul>
+              <form class="" action = "PHP/myacc.php" method = "post">
+              <li><button class= "buto">My Account</button></li>
+            </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="header-text caption">
+              <h2>Set Blood group</h2>
+              <div id="search-section">
+              	<form id="suggestion_form" name="gs" method="post" action="PHP/beadoner.php">
+                <div class="searchText">
+                  <select name = "bldgroup" id = "bldgroup">
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="O+">O+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="A-">A-</option>
+                    <option value="B-">B-</option>
+                    <option value="O-">O-</option>
+                    <option value="AB-">AB-</option>
+                  </select>
+                </div>
+                    <button type="submit" class="butogo">Set blood group</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>About Us</h2>
+              </div>
+              <p>Hypocrate cry is a website which is developed By Shanta Khatun and it is developed for tracking a search reult of any keyword by google</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>Developer contact</h2>
+              </div>
+              <ul class="footer-list">
+                <li><a href="https://www.facebook.com/ShantaRHF">Shanta Rahman - FB</a></li>
+                <li><a href="mailto:shanta.cse.bubt@gmail.com">Shanta Rahman - Gmail</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>Useful Links</h2>
+              </div>
+              <ul class="footer-list">
+                <li><a href="https://www.bubt.edu.bd/">BUBT</a></li>
+                <li><a href="https://www.annex.bubt.edu.bd/">Annex</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-item">
+              <div class="footer-heading">
+                <h2>More Information</h2>
+              </div>
+              <ul class="footer-list">
+                <li>Phone: <a href="tel:01737387870">01737387870</a></li>
+                <li>Email: <a href="mailto:shanta.cse.bubt@gmail.com">shanta.cse.bubt@gmail.com</a></li>
+                <li>Support: <a href="mailto:shanta.cse.bubt@gmail.com">shanta.cse.bubt@gmail.com</a></li>
+                <li>Website: <a href="mailto:shanta.cse.bubt@gmail.com">shanta.cse.bubt@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="sub-footer">
+              <p>Copyright &copy; 2020 Shanta Rahman
+				- Designed by <a rel="nofollow" href="https://www.facebook.com/ShantaRHF">Shanta rahman</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+  </body>
+</html>

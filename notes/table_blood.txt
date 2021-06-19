@@ -1,0 +1,1 @@
+CREATE TABLE `hypcry`.`blood` ( `id` INT NOT NULL AUTO_INCREMENT , `bgroup` TEXT NOT NULL , `name` TEXT NOT NULL , `phone` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
